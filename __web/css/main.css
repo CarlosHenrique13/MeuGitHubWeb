@@ -1,11 +1,21 @@
+/* Estrutura Principal */
 body{
     background-color: rgb(211, 211, 211);
 }
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+}
+/* Lado Esquerdo para Menu */
 section{
     display: block;
     float: left;
     width: 245px;
 }
+/* Lado Direito de Conteudo */
 aside{
     display: block;
     float: left;
@@ -17,5 +27,22 @@ aside{
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    margin: 10px;
     box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
+    float: right;
+}
+.imageSena div{
+    padding: 5px;
+    position: relative;
+    width: 200px;
+    display: block;
+    float: left;
+}
+.imageSena span button{
+    width: 80px;
+    position: absolute;
+    display: block;
+    margin-left: 100px;
+    margin-top: -5px;
+    background-color: blue;
 }
