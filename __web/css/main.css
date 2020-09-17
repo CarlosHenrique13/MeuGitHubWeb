@@ -15,21 +15,26 @@ section{
     float: left;
     width: 245px;
 }
+nav iframe{
+    border-radius: 10px;
+}
 /* Lado Direito de Conteudo */
 aside{
     display: block;
     float: left;
     width: 800px;
     padding: 10px;
-    background-color: red;
+    border-radius: 5px;
+    background-color: #525965;
 }
+/* Fundo Par colocar Imagem e coteudo da Imagem*/
 .imageSena{
     background-color: white;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
     float: right;
+    box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
 }
 .imageSena div{
     padding: 5px;
