@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+section{
+    display: block;
+    float: left;
+    width: 245px;
+}
+aside{
+    display: block;
+    float: left;
+    width: 800px;
+    padding: 10px;
+    background-color: red;
+}
