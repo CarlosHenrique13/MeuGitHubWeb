@@ -11,6 +11,9 @@ h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+h2 {
+    margin-left: 15px;
+}
 p{
     text-align: justify;
 }
@@ -56,6 +59,38 @@ aside{
     margin-top: -5px;
     background-color: blue;
 }
+/* Tabelas */
+table {
+    box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: auto;
+    
+}
+table caption{
+    font-size: 20px;
+    color: #818896;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+table tr{
+    color: #818896;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table td{
+    color: #818896;
+    padding: 5px;
+    border-top: solid 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-right: solid 1px black;
+}
+
+/* Rodape */
 footer p{
     text-align: center;
 }
