@@ -96,7 +96,11 @@ body {
   width:150px;
 }
 
-
+span p{
+  text-align: center;
+  font-size: 12px;
+  color: #818896;
+}
 /*----------------toggeled sidebar----------------*/
 
 .page-wrapper.toggled .sidebar-wrapper {
