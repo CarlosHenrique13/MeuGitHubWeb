@@ -2,12 +2,21 @@
 body{
     background-color: rgb(211, 211, 211);
 }
+div#corpo{
+    margin: auto;
+    width: 1100px;
+    padding: 10px;
+}
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+h2 {
+    margin-left: 15px;
+}
 p{
     text-align: justify;
+    color: rgb(224, 222, 222);
 }
 /* Lado Esquerdo para Menu */
 section{
@@ -17,6 +26,9 @@ section{
 }
 nav iframe{
     border-radius: 10px;
+    height: 600px;
+    width: 240px;
+    border-style: none;
 }
 /* Lado Direito de Conteudo */
 aside{
@@ -27,21 +39,26 @@ aside{
     border-radius: 5px;
     background-color: #525965;
 }
+
 /* Fundo Par colocar Imagem e coteudo da Imagem*/
 .imageSena{
     background-color: white;
     border-radius: 10px;
-    padding: 10px;
     margin: 10px;
+    padding: 5px;
     float: right;
     box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
 }
 .imageSena div{
-    padding: 5px;
     position: relative;
-    width: 200px;
+    width: 250px;
     display: block;
     float: left;
+}
+.imageSena p {
+    color: gray;
+    margin-left: 30px;
+    text-align: center;
 }
 .imageSena span button{
     width: 80px;
@@ -50,4 +67,39 @@ aside{
     margin-left: 100px;
     margin-top: -5px;
     background-color: blue;
+}
+/* Tabelas */
+table {
+    box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: auto;
+    
+}
+table caption{
+    font-size: 20px;
+    color: #818896;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+table tr{
+    color: #818896;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table td{
+    color: #818896;
+    padding: 5px;
+    border-top: solid 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-right: solid 1px black;
+}
+
+/* Rodape */
+footer p{
+    text-align: center;
 }
