@@ -68,6 +68,18 @@ aside{
     margin-top: -5px;
     background-color: blue;
 }
+/* Troca de Imagens */
+
+.imageSena .imgaeRotatorio {
+    display: none;
+}
+.imageSena .imageRolate {
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
+    text-align: center;
+    margin: auto;
+}
+
 /* Tabelas */
 table {
     box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
