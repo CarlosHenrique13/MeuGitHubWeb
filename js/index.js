@@ -29,5 +29,14 @@ function ImagensSyshen(){
 var temp = setInterval(ImagensPuclic,2000)
 var tes  = setInterval(ImagensSyshen,2000)
 
-
-
+// Funções de Imagens
+function Img_zom(id){
+    var img = document.getElementById(id);
+    img.style.border = "none";
+    if (img.style.width === "100%"){
+        img.style.width = "25%";
+        img.style.background = "transparent";
+    }else{
+        img.style.width = "100%";
+    }    
+}
