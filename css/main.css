@@ -79,7 +79,16 @@ table a:hover{
 .rede_social tr td {
     width: 50%;
 }
-
+/* ============
+    PORTIFOLHO
+   ============
+*/
+.portifolho{
+    width:46%;
+    height: 400px;
+    margin: 2%;
+    float: left;
+}
 /* =======================
     Certificados Imagens
    =======================
@@ -140,5 +149,8 @@ table a:hover{
     }
     .img_btn button{
         width: 40%;
+    }.portifolho{
+        width:100%;
+        height:600px;
     } 
 }
