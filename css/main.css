@@ -85,9 +85,11 @@ table a:hover{
 */
 .portifolho{
     width:46%;
-    height: 400px;
+    height: 550px;
     margin: 2%;
     float: left;
+    border-radius: 3px;
+    border:none
 }
 /* =======================
     Certificados Imagens
